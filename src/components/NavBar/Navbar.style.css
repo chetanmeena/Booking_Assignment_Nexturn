@@ -1,0 +1,90 @@
+.navbar{
+    background-color: rgb(33, 1, 20);
+    height: 50px;
+    display: flex;
+    padding-top: 23px;  
+    justify-content: space-between; 
+    padding-left: 10px; 
+}
+#title{
+    color: rgb(201, 201, 57);
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navitems{
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: end;
+    padding-right: 15px;
+    
+}
+.navButton{
+    height: 30px;
+    border-radius: 7px;
+    border-style: inset;
+    margin-left: 2px;
+    background-color: aliceblue;
+    
+    
+}
+.searchbox{
+    background-color: white;
+    margin-top: 3px;
+    margin-left: 225px;
+    width: 350px;
+    height: 23px;
+    padding-left: 5px;
+    border-radius: 12px;
+    position: absolute
+    
+}
+
+#search-box-text{
+    margin-left: -330px;
+    width: 280px;
+    padding-left: 45px;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 0ch;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-style: hidden;
+    color: black;
+   
+    height: 11px;
+}
+.location-container{
+    background-color: rgb(33, 1, 20);;
+    width: 0px;
+    height: 15px;
+    margin-left: 360px;
+    margin-top: -21px;
+    position: absolute;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+#location-slide-down{
+    padding-top: 3px;
+    padding-bottom: 18px;
+    border-radius: 10px;
+    margin-left: 110px;
+    width: 70px;
+    padding-left: 10px;
+    padding-right: 13px;
+
+    height: 10px;
+
+
+    
+}
+.navbar-search-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

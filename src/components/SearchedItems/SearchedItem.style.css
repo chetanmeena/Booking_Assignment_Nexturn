@@ -1,0 +1,18 @@
+.searched_items{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-color: #000000;
+    border-style: dotted;
+    border-width: 2px;
+    margin-left: -350px;
+    margin-top: 25px;
+    border-radius: 12px;
+    padding-right: 290px;
+    padding-left: 260px;
+    margin-bottom: 30px;
+    align-items: center;
+   
+    
+
+}

@@ -1,0 +1,46 @@
+.site_details{
+    background-color: rgb(33, 1, 20);
+    margin-top: -25px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    color: aliceblue;
+    padding-top: 35px;
+    display: flex;
+    
+}
+.book_logo{
+    background-color: rgb(201, 201, 57);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 540px;
+    max-height: 30px;
+    width: 100px;
+    border-radius: 12px;
+    padding-left: 9px;
+    padding-top: 5px;
+    margin-top: 75px;
+
+
+}
+.book_button{
+    border-radius: 12px;
+    margin-bottom: 10px;
+    border-width: 0ch;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    background-color: rgb(201, 201, 57);;
+}
+.book_button:hover{
+    animation: reverse;
+}
+#site_h1{
+    color: rgb(201, 201, 57);
+}
+#des_title{
+    color: white;
+    font-size: large;
+    text-decoration: line-through;
+    margin-left: 2px ;
+}

@@ -1,0 +1,53 @@
+.Booking_header{
+background-color: burlywood;
+display: flex;
+flex-direction: column;
+width:  30%;
+max-height: 100px;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 15px;
+margin-top: 25px;
+padding-top: 15px;
+min-height: 300px;
+border-radius: 15px;
+margin-left: 50px;
+overflow-x: hidden;
+}
+#searchbar{
+    font-size: x-large;
+}
+#movie_input{
+    margin-right: 450px;
+    border-radius: 7px;
+    margin-top: 7px;
+    width: 117px;
+    
+
+}
+
+
+.location_filter{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+#cities_drop{
+    margin-top: 10px;
+}
+.datefilter{
+    display: flex;
+    flex-direction: column;
+}
+
+#datefil{
+    margin-left:0px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    width: 117px;
+}
